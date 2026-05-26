@@ -20,7 +20,10 @@ let package = Package(
         ),
         .testTarget(
             name: "MockFileServerTests",
-            dependencies: ["MockFileServer"]
+            dependencies: ["MockFileServer"],
+            resources: [
+                .process("Resources")
+            ]
         ),
     ]
 )
