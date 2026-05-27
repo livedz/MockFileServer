@@ -314,6 +314,3 @@ if ProcessInfo.processInfo.environment["UI_TESTING"] == "1" {
 
 ---
 
-## License
-
-MIT — see [LICENSE](LICENSE) for details.
